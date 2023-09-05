@@ -1,0 +1,155 @@
+/* Portfolio */
+
+#portfolio {
+    background: url(../../assets/Color-comb.svg) no-repeat;
+    background-position: 97% 5%;
+    padding: 8%;
+    text-align: center;
+}
+
+.portfolio-message {
+    color: #c8c8c8;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.card-deck {
+    padding: 40px 20px;
+}
+
+.portfolio-body {
+    background-color: transparent;
+    text-align: left;
+    padding: 16px 0 16px;
+}
+
+.card-img-top {
+    border-radius: 8px;
+}
+
+.live-demo {
+    font-family: 'josefin sans', sans-serif;
+    background-color: #cf9c63;
+    border-radius: 8px;
+    border: 1px #cf9c63 solid;
+    padding: 8px 16px;
+    margin-right: 16px;
+    transition: ease-in 400ms;
+}
+.live-demo:hover {
+    box-shadow: 0 0 15px 0 #cf9c63;
+}
+.live-demo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.behance {
+    font-family: 'josefin sans', sans-serif;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px #cf9c63 solid;
+    padding: 8px 16px;
+    margin-right: 16px;
+    transition: ease-in 400ms;
+}
+.behance:hover {
+    background-color: #cf9c63;
+    border: 1px #cf9c63 solid;
+}
+.behance a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.card-title {
+    color: #fff;
+}
+
+.card-text {
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    color: #aeaeae;
+}
+
+.card-img {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.card-img img {
+    transition: all 1.5s ease;
+}
+
+.card-design {
+    border: 0;
+    border-radius: 10px;
+    background-color: #2d2a2a;
+    padding: 1rem;
+    box-shadow: 0 0 15px 0 #231a1d;
+    transition: all 600ms;
+}
+.card-design:hover {
+    box-shadow: 0 0 15px 0 #cf9c63;
+}
+
+.card-design:hover img {
+    transform: scale(1.2);
+}
+
+
+/* Projects */
+
+.view-projects {
+    font-family: 'josefin sans', sans-serif;
+    color: var(--color-white);
+    background-color: #cf9c63;
+    border-radius: 8px;
+    border: 1px #cf9c63 solid;
+    padding: 8px 16px;
+    margin-top: 3rem;
+    transition: ease-in 400ms;
+}
+.view-projects:hover {
+    box-shadow: 0 0 15px 0 #cf9c63;
+}
+
+.modal-content {
+    background-color: #2d2a2a;
+}
+
+.project-main {
+    margin: 2rem 0;
+    text-align: start;
+}
+
+.project-img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.project-title {
+    margin-bottom: 1rem;
+}
+
+.project-info {
+    margin: 1rem 0;
+    color: #c8c8c8;
+}
+
+hr {
+    color: #8f8f8f;
+}
+
+
+
+/* Portfolio @media */
+
+@media screen and (max-width: 1028px) {
+
+    .portfolio-message {
+        width: 100%;
+    }
+
+}
