@@ -1,0 +1,170 @@
+/* Contact Me */
+
+#contact {
+    background: url(../../assets/Orange-splash.svg) no-repeat;
+    background-position: 100% 0%;
+    padding: 8% 14%;
+    text-align: center;
+    background-color: #232222;
+}
+
+.contact-top {
+    margin-bottom: 3rem;
+}
+
+.contact-message {
+    color: #c8c8c8;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.contact-design {
+    display: flex;
+    border: #cf9c63 2px solid;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.fa-phone {
+    background-color: #cf9c63;
+    padding: 16px;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    margin: 16px;
+    transition: ease-out 500ms;
+}
+.fa-phone:hover {
+    box-shadow: 0 0 15px 0 #cf9c63;
+}
+
+.fa-envelope {
+    background-color: #cf9c63;
+    padding: 16px;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    margin: 16px;
+    transition: ease-out 500ms;
+}
+.fa-envelope:hover {
+    box-shadow: 0 0 15px 0 #cf9c63;
+}
+
+.fa-location-dot {
+    background-color: #cf9c63;
+    padding: 16px 18px;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    margin: 16px;
+    transition: ease-out 500ms;
+}
+.fa-location-dot:hover {
+    box-shadow: 0 0 15px 0 #cf9c63;
+}
+
+.contact-info {
+    padding-top: 24px;
+    text-align: start;
+}
+
+.info-title {
+    font-family: 'josefin sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+}
+
+.info-main {
+    margin: 0.2rem auto;
+    font-family: 'poppins', sans-serif;
+    color: #c8c8c8;
+    font-size: .9rem;
+}
+
+.info-main a {
+    color: #c8c8c8;
+}
+
+.form-design {
+    background-color: #2d2a2a;
+    padding: 32px;
+    border-radius: 1rem;
+}
+
+.phone-email {
+    display: flex;
+    gap: 16px;
+}
+
+.left-side {
+    padding-top: 5rem;
+}
+
+.right-side {
+    padding-right: 0;
+    padding-left: 1.5rem;
+}
+
+.form-control {
+    background-color: #2d2a2a;
+    color: #c8c8c8;
+    border: #8f8f8f 1.5px solid;
+    border-radius: .7rem;
+}
+
+label {
+    color: #8f8f8f;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.form-floating>label {
+    padding-left: 1.5rem;
+    z-index: 1;
+}
+
+.form-floating>.form-control {
+    background-color: #2d2a2a;
+    color: #c8c8c8;
+    padding-left: 1.5rem;
+    height: 3.3rem;
+}
+
+.form-floating>.form-control-plaintext~label, .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+    color: #8f8f8f;
+}
+
+label::after {
+    display: none;
+}
+
+.send-message {
+    font-family: 'poppins', sans-serif;
+    font-size: .9rem;
+    background-color: #cf9c63;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px #cf9c63 solid;
+    color: #fff;
+    padding: 10px 22px;
+    width: 160px;
+    transition: ease-out 500ms;
+}
+.send-message:hover {
+    box-shadow: 0 0 15px 0 #cf9c63;
+}
+
+/* Contact Me @media */
+
+@media screen and (max-width: 1028px) {
+
+    #contact {
+        padding: 8% 2%;
+    }
+    
+    .left-side {
+        padding: 0 3rem;
+    }
+
+}

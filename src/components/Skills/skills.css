@@ -1,0 +1,46 @@
+/* Skills */
+
+#skills {
+    padding: 8%;
+    background-color: #2d2a2a;
+}
+
+.right-skills {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    padding-top: 15%;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.skills-p {
+    font-family: 'poppins', sans-serif;
+    color: #c8c8c8;
+    font-size: 1rem;
+    margin:24px 0;
+    line-height: 1.6;
+}
+
+.office-image {
+    border-radius: 1rem;
+    background: linear-gradient(45deg, transparent, #fff, transparent);
+    display: grid;
+    place-items: center;
+}
+
+.office-img-image {
+    width: 100%;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: ease-out 400ms;
+}
+.office-img-image:hover {
+    transform: rotate(0);
+}
+
+.skills-showcase {
+    width: 80%;
+}
+

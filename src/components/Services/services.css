@@ -1,0 +1,82 @@
+/* Services */
+
+#services {
+    background: url("../../assets/Orange-line.png") no-repeat;
+    background-position: 100% 100%;
+    padding: 8% 16%;
+    text-align: center;
+    background-color: #232222;
+}
+
+.service-message {
+    color: #c8c8c8;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.g-8 {
+    --bs-gutter-y: 1.5rem;
+}
+
+.service-top {
+    position: absolute;
+}
+
+/* started */
+
+.portfolio-card .react-reveal {
+    background-color: #2d2a2a;
+    transition: ease-out 400ms;
+    border-radius: 6px;
+}
+.portfolio-card .react-reveal:hover {
+    background-color: transparent;
+    box-shadow: 0 0 5px 0 #cf9c63;
+}
+
+.portfolio-card .react-reveal .services-body {
+    padding: 1rem;
+}
+
+.portfolio-card .react-reveal .card-title {
+    margin-bottom: 0.5rem;
+}
+
+/* Ends */
+
+
+.top-service-img {
+    padding: 24px 0 12px;
+}
+
+.service-text {
+    font-family: 'poppins', sans-serif;
+    color: #c8c8c8;
+    padding: auto;
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+
+@media screen and (max-width: 1028px) {
+
+  #services {
+    padding: 8% 4%;
+  }
+
+  .services-group {
+    padding: 0 2%;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+  
+    .service-message {
+      width: 100%;
+    }
+
+  }

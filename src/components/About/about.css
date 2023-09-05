@@ -1,0 +1,121 @@
+/* About */
+
+#about {
+    background-color: #2d2a2a;
+    padding: 5rem 0;
+}
+
+.about-container {
+    width: 100%;
+    margin: 0;
+}
+
+.about-image {
+    width: 70%;
+    margin-top: 8%;
+}
+
+.second-image {
+    width: 100%;
+}
+
+.rope-icon {
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    width: 15%;
+}
+
+.my-rope {
+    width: 100%;
+}
+
+.project-icon {
+    display: inline-block;
+    position: absolute;
+    right: 12%;
+    top: 65%;
+}
+
+.years-icon {
+    display: inline-block;
+    position: absolute;
+    left: 8%;
+    top: 40%;
+}
+
+.about-writeup {
+    padding: 8% 17% 0% 4%;
+}
+
+.about-p {
+    font-family: 'poppins', sans-serif;
+    color: #c8c8c8;
+    font-size: 1rem;
+    margin:24px 0;
+    line-height: 1.6;
+}
+
+.hire-media {
+    padding-top: 16px;
+}
+
+.hire-media .react-reveal {
+    font-family: 'josefin sans', sans-serif;
+    background-color: #cf9c63;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px #cf9c63 solid;
+    color: #fff;
+    padding: 8px 24px;
+    margin-right: 16px;
+    transition: ease-out 500ms;
+}
+.hire-media .react-reveal:hover {
+    box-shadow: 0 0 15px 0 #cf9c63;
+}
+
+.hire-media .react-reveal a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* About @media */
+
+@media screen and (max-width: 1028px) {
+
+    .about-writeup {
+        padding: 8% 2% 0%;
+    }
+
+    .hire-me {
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .my-projects {
+        width: 60%;
+    }
+
+    .about-image {
+        width: 90%;
+    }
+
+    .project-icon {
+        right: 2%;
+    }
+
+    .years-icon {
+        left: 2%;
+        top: 50%;
+    }
+
+    .my-years {
+        width: 70%;
+    }
+
+}
