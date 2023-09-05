@@ -1,0 +1,40 @@
+/* Features */
+
+#features {
+    padding: 0 5rem 4rem;
+    background-color: #232222;
+    text-align: center;
+}
+
+.features {
+    padding: 0 2rem;
+}
+
+.section-two {
+    text-align: center;    
+}
+
+.features-box {
+    padding: 1.5rem 0;
+}
+
+.features .react-reveal {
+    padding: 1.2rem 0;
+}
+
+
+@media screen and (max-width: 1028px) {
+
+    .features {
+        padding: 0 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    #features {
+        padding: 0 1rem 4rem;
+    }
+    
+}

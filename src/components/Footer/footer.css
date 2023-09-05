@@ -1,0 +1,138 @@
+/* Footer */
+
+#footer {
+    background: url(../../assets/footer-image.png) no-repeat;
+    background-size: contain;
+    background-color: #2d2a2a;
+    padding: 4rem 4rem 2rem;
+    text-align: center;
+}
+
+.footer-logo {
+    padding-bottom: 2rem;
+}
+
+.footer-message {
+    color: #c8c8c8;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.social-media{
+    width: fit-content;
+    border: #cf9c63 2px solid;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.twitter-icon {
+    background-color: transparent;
+    border-radius: .5rem;
+    padding: 8px 2px;
+    margin-right: 12px;
+    border: #cf9c63 2px solid;
+    transition: ease-out 300ms;
+}
+.socials:hover .twitter-icon {
+    background-color: #cf9c63;
+}
+
+.facebook-icon {
+    background-color: transparent;
+    border-radius: .5rem;
+    padding: 8px 6px;
+    margin-right: 12px;
+    border: #cf9c63 2px solid;
+    transition: ease-out 300ms;
+}
+.socials:hover .facebook-icon {
+    background-color: #cf9c63;
+}
+
+.instagram-icon {
+    background-color: transparent;
+    border-radius: .5rem;
+    padding: 8px 4px;
+    margin-right: 12px;
+    border: #cf9c63 2px solid;
+    transition: ease-out 300ms;
+}
+.socials:hover .instagram-icon {
+    background-color: #cf9c63;
+}
+
+.linked-in-icon {
+    background-color: transparent;
+    border-radius: .5rem;
+    padding: 8px 4px;
+    margin-right: 12px;
+    border: #cf9c63 2px solid;
+    transition: ease-out 300ms;
+}
+.socials:hover .linked-in-icon {
+    background-color: #cf9c63;
+}
+
+.social-media .linked-in {
+    margin-right: 1rem;
+}
+
+.socials p {
+    color: #c8c8c8;
+    margin: 0;
+    transition: ease-out 300ms;
+}
+.socials:hover p {
+    color: #cf9c63;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+.my-copy {
+    color: #c8c8c8;
+}
+
+/* Footer @media */
+
+@media screen and (max-width: 1028px) {
+
+     .footer-message {
+        width: 100%;
+    }
+
+    #footer {
+        padding: 4rem 2rem 2rem;
+    }
+
+    .social-media {
+    width: fit-content;
+    justify-content: center;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .socials {
+        margin: 0.6rem;
+    }
+
+    .my-copy {
+        font-size: .75rem;
+    }
+
+}
