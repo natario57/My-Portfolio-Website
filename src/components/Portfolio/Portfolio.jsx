@@ -52,7 +52,7 @@ const Portfolio = () => {
           </div>
           <div class="card-body portfolio-body">
             <h3 class="card-title">Front-end development</h3>
-            <p class="card-text">HTML, CSS, Bootstrap, Javascript, React</p>
+            <p class="card-text">HTML, CSS, Bootstrap, Javascript</p>
             <div class="portfolio-button">
               <button type="button" class="live-demo"> <a href="https://lepoll.com/" target="_blank">Visit Site</a></button>
               <button type="button" class="behance"> <a href="https://github.com/natario57" target="_blank">View Details</a></button>
