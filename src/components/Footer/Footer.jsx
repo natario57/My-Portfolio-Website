@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
         </a>
       </div>
-      <small class="my-copy">© 2023 Nathaniel Akobundu, all rights reserved</small>
+      <small class="my-copy">© 2024 Nathaniel Akobundu, all rights reserved</small>
 
     </footer>
   )
