@@ -25,8 +25,8 @@ const About = () => {
           <p class="about-p">I am a product designer and a front-end developer, my
           artistic experience gives me the unique ability to apply
           design in all its forms to business processes. I have over
-          4 year of experience in user-centered design, user
-          research, design thinking and strategy, with 2years of
+          6 year of experience in user-centered design, user
+          research, design thinking and strategy, with 2 years of
           experience in front-end development, my design tools
           include Figma, Illustrator, Invision, HTML, CSS, Bootstrap and React.</p>
           <div class="hire-media">
